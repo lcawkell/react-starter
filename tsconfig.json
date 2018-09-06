@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist./",
+        "sourceMap": true,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es6",
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "strictNullChecks": false,
+        "moduleResolution": "node",
+        "rootDir": "src"
+    },
+    "include": [
+        "./src/components/**/*"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+      "reportFiles": [
+        "./src/components/**/*"
+      ],
+      "useBabel": true,
+      "strictNullChecks": false,
+      "noImplicitAny": false
+    }
+}
